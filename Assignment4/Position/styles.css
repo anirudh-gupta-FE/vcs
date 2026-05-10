@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap");
+body {
+  margin: 0;
+  font-family: "Mona Sans", sans-serif;
+}
+.box {
+  width: 500px;
+  margin: 10px auto;
+  position: relative;
+}
+.img {
+  width: 100%;
+}
+
+.text {
+  background: linear-gradient(to top, rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0));
+  color: white;
+  display: inline-block;
+  font-size: 20px;
+  position: absolute;
+  padding: 20px 15px;
+  padding-right: 25px;
+  left: 0;
+  bottom: 5px;
+}
+.font {
+  margin: 0;
+  margin-top: 15px;
+}

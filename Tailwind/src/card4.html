@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body class="bg-gray-100">
+    <div
+      class="bg-white rounded-2xl m-auto mt-12 w-[400px] p-5 text-center box-sizing:border-box"
+    >
+      <p class="text-5xl my-9">💳</p>
+      <h1 class="text-2xl mt-11 mb-4 font-bold font-sans">Card Details</h1>
+      <p class="text-slate-500">
+        Enter your card details to kick start your free trial. Don't worry, you
+        won't be charged a dime until your free trial ends in
+        <b class="text-black">7 days.</b>
+      </p>
+      <div
+        class="border-2 shadow-2xl py-2 pl-2 rounded-lg border-violet-500 flex justify-between my-3 focus-within:ring-violet-300/30 focus-within:ring-3"
+      >
+        <div class="flex items-center gap-0.5">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="#5b5b5b"
+            class="bi bi-credit-card"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"
+            />
+            <path
+              d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"
+            />
+          </svg>
+          <input
+            type="text"
+            class="w-42 pl-1 outline-none placeholder:text-slate-600 placeholder:font-normal"
+            placeholder="Card Number"
+          />
+        </div>
+        <div class="flex items-center gap-2">
+          <input
+            type="text"
+            class="w-15 px-1 outline-none placeholder:text-slate-600 placeholder:font-normal"
+            placeholder="MM/YY"
+          />
+          <input
+            type="text"
+            class="w-12 px-1 outline-none placeholder:text-slate-600 placeholder:font-normal"
+            placeholder="CVV"
+          />
+        </div>
+      </div>
+      <button
+        class="mb-3.5 bg-[#6a2eff] text-sm font-bold rounded-lg w-[100%] text-white py-2.5 cursor-pointer box-border"
+      >
+        Start your 7-day free trial
+      </button>
+      <div class="flex items-center justify-center-safe gap-1">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="#31c18c"
+          class="bi bi-shield-lock"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M5.338 1.59a61 61 0 0 0-2.837.856.48.48 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.7 10.7 0 0 0 2.287 2.233c.346.244.652.42.893.533q.18.085.293.118a1 1 0 0 0 .101.025 1 1 0 0 0 .1-.025q.114-.034.294-.118c.24-.113.547-.29.893-.533a10.7 10.7 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.8 11.8 0 0 1-2.517 2.453 7 7 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7 7 0 0 1-1.048-.625 11.8 11.8 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 63 63 0 0 1 5.072.56"
+          />
+          <path
+            d="M9.5 6.5a1.5 1.5 0 0 1-1 1.415l.385 1.99a.5.5 0 0 1-.491.595h-.788a.5.5 0 0 1-.49-.595l.384-1.99a1.5 1.5 0 1 1 2-1.415"
+          />
+        </svg>
+        <span class="text-sm">Secure and Encrypted</span>
+      </div>
+    </div>
+  </body>
+</html>

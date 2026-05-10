@@ -1,0 +1,178 @@
+/* font imported from google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap");
+body {
+  font-family: "Mona Sans", sans-serif; /*font name added from the imported one*/
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #eeeef0;
+}
+p {
+  color: #5b5b5b;
+}
+b {
+  color: black;
+}
+.box {
+  width: 500px;
+  margin: 10px auto;
+  background-color: rgba(255, 255, 255, 0.966);
+  padding: 25px;
+  border-radius: 14px;
+}
+
+.box-img {
+  width: 100%;
+  border-radius: 14px;
+}
+
+.card {
+  width: 350px;
+  margin: 10px auto;
+  background-color: rgba(255, 255, 255, 0.966);
+  padding: 25px;
+  border-radius: 14px;
+  text-align: center;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 10px;
+  border: 2px solid #a28eca;
+  text-align: center;
+}
+
+.input:focus {
+  box-shadow: 0 0 3px 2px rgb(162, 142, 202, 0.3);
+  outline: none;
+}
+
+.card-img {
+  height: 100%;
+  border-radius: 14px;
+}
+
+.btn-1 {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #6a2eff;
+  border: 2px solid rgb(106, 46, 255);
+  border-radius: 8px;
+  color: #eeeef0;
+  font-weight: 600;
+}
+
+.btn-1:hover {
+  cursor: pointer;
+}
+
+.emoji {
+  font-size: 46px;
+  text-align: center;
+}
+
+.btn-2 {
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.btn-2:hover {
+  cursor: pointer;
+  background-color: rgb(243, 243, 245);
+}
+.card-details {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid rgb(162, 142, 202);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.card-details:focus {
+  box-shadow: 0 0 3px 2px rgb(162, 142, 202, 0.3);
+  outline: none;
+}
+
+.card-number {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.card-cvv {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.number {
+  width: 180px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+}
+
+.period {
+  width: 60px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+}
+.cvv {
+  width: 40px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+}
+
+.security {
+  margin-top: 20px;
+  font-size: small;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+/*focus within important value*/
+.card-details:focus-within {
+  box-shadow: 0 0 3px 2px rgb(162, 142, 202, 0.3);
+}
+
+select {
+  width: 100%;
+  padding: 10px 0;
+  padding-left: 10px;
+  border-radius: 10px;
+  color: #5b5b5b;
+  outline: none;
+}
+
+.company-label {
+  margin-top: 15px;
+  font-size: 10px;
+  text-align: left;
+}
+
+select:focus {
+  border: 2px solid rgb(162, 142, 202);
+  box-shadow: 0 0 3px 2px rgb(162, 142, 202, 0.3);
+}
+.input-company {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  padding-left: 10px;
+  color: #5b5b5b;
+  border: 1px solid #5b5b5b;
+  border-radius: 10px;
+}
+.input-company:focus {
+  border: 2px solid rgb(162, 142, 202);
+  box-shadow: 0 0 3px 2px rgb(162, 142, 202, 0.3);
+  outline: none;
+}
